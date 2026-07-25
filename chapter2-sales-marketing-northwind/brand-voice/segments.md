@@ -23,3 +23,4 @@ Use these with prompts/02_segment_specific.md.
 - What they've usually done by day 3 of trial: created 1 project, invited 0 teammates
   (enterprise trials often stall waiting on security sign-off)
 - Feature they care most about: SSO, audit trail, granular permissions
+

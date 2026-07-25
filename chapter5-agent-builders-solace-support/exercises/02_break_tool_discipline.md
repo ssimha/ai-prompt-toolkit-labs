@@ -13,3 +13,4 @@ what was called and with what arguments.
 This is section 5.7's "tool misuse" failure mode, reproduced on
 purpose. Restore the original prompt afterward and confirm the
 unnecessary calls stop.
+

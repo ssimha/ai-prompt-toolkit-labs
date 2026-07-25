@@ -1,6 +1,6 @@
 # Chapter 3 Lab — Alden Manufacturing
 
-Companion lab for Chapter 3 (Finance) of *The Prompt Toolkit*.
+Companion lab for Chapter 3 (Finance) of *The AI Prompt Toolkit*.
 
 ## What's actually real here vs. what you run yourself
 
@@ -64,3 +64,4 @@ the cent. It will not catch an error that happens to net out to the
 correct total through two compensating mistakes, and it does not
 replace the LLM-based reconciliation check in Prompt 6 or the human
 checkpoint in section 3.11. Use both, the way the chapter recommends.
+

@@ -20,3 +20,4 @@ behavioral data usefully and personalization that discloses it in a
 way that feels invasive — section 2.8 names the failure mode but
 deliberately doesn't give you a hard rule, because the line depends on
 what's being disclosed, not just that something was.
+

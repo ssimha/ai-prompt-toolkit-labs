@@ -29,3 +29,4 @@ $750.00 in Prompt 3 is deliberate. See that prompt file for how to use it.
 all five raw files — 42 rows, every date normalized to YYYY-MM-DD, every
 amount as a two-decimal number. Diff your model's structured output
 against it.
+

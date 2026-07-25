@@ -1,6 +1,6 @@
 # Chapter 1 Lab — Meridian Retail
 
-Companion lab for Chapter 1 (Foundations) of *The Prompt Toolkit*.
+Companion lab for Chapter 1 (Foundations) of *The AI Prompt Toolkit*.
 
 ## Contents
 
@@ -27,3 +27,4 @@ Companion lab for Chapter 1 (Foundations) of *The Prompt Toolkit*.
 4. Read `prompts/03_chain_of_thought_reconciliation.md` and work through
    the PROMO-REGIONAL-JUL discrepancy.
 5. Move to `exercises/` in order.
+

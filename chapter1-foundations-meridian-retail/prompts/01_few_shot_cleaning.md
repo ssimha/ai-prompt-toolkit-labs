@@ -23,3 +23,4 @@ Try this on all five files in `raw-data/`. Each store uses a different
 date format and column naming — that's the point. Confirm your output
 dates all come back as YYYY-MM-DD regardless of which store you started
 from, and that dollar amounts always show two decimal places.
+

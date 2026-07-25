@@ -18,3 +18,4 @@
 5. If you have `fastapi`, `pydantic`, and `pytest` installed, run the
    full suite with `pytest tests/test_shipments.py -v` and confirm
    everything passes against the fixed endpoint.
+

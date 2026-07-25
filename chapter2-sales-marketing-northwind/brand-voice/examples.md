@@ -22,3 +22,4 @@ paste them verbatim into prompts, the same way section 2.3 describes.
 - Confident but not hype-driven — no exclamation points, no "game-changing"
 - Directness — gets to the point in the first sentence
 - A light, slightly informal register ("No pressure", "gets out of the way")
+

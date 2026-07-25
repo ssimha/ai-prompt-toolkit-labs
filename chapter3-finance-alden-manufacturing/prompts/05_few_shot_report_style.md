@@ -15,3 +15,4 @@ Ohio as primary drivers, per Prompt 2), in this exact style.
 Compare against the example: short declarative sentences, dollar
 figures followed by percentage or point changes in parentheses, no
 unsupported editorializing about whether the result is "good" or "bad."
+

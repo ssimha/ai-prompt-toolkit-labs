@@ -19,3 +19,4 @@ shipment status endpoint using this exact same pattern.
 Check your model's output against the actual `APIError` calls in
 `app/routes/shipments.py` — same fields, same structure, no bare
 `HTTPException` calls mixed in.
+

@@ -17,3 +17,4 @@ contract on its own — field types, nullability, the enum — before
 moving on to Prompt 2. This is the point of the chapter: catching a
 wrong field type here is far easier than catching it once it's buried
 inside a working-looking endpoint.
+

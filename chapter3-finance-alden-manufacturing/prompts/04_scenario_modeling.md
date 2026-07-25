@@ -20,3 +20,4 @@ Check section 3 of the output carefully — a model that silently
 assumes something you didn't specify (e.g., that the 10% applies only
 to some subsidiaries, or that volume grows alongside cost) has failed
 the actual point of this exercise, even if the arithmetic is correct.
+

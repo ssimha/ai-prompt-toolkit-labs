@@ -1,4 +1,4 @@
-# The Prompt Toolkit — Companion Labs
+# The AI Prompt Toolkit — Companion Labs
 ### by Sirish Simha
 
 This repository holds the runnable labs referenced throughout *The Prompt
@@ -80,5 +80,6 @@ Chapters 1, 2, 3, 4, and 5 each have a full companion lab in this
 repository.
 
 ---
-*Companion repository for The Prompt Toolkit. Questions, corrections, or
+*Companion repository for The AI Prompt Toolkit. Questions, corrections, or
 found a bug in a lab — open an issue.*
+

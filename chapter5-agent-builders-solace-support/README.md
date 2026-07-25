@@ -96,3 +96,4 @@ See `exercises/` — extending the pipeline with a Sentiment Checker
 agent, deliberately breaking tool discipline to observe the failure
 mode from section 5.7, and designing guardrails for a new ticket
 category from scratch.
+

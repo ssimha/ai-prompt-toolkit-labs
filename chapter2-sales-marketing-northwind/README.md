@@ -1,6 +1,6 @@
 # Chapter 2 Lab — Northwind B2B
 
-Companion lab for Chapter 2 (Sales & Marketing) of *The Prompt Toolkit*.
+Companion lab for Chapter 2 (Sales & Marketing) of *The AI Prompt Toolkit*.
 
 ## What's actually real here vs. what you run yourself
 
@@ -62,3 +62,4 @@ doesn't match its regex patterns. It's the fast, free, mechanical first
 pass; the LLM-based check in `prompts/06` and the human checkpoint in
 section 2.11 are what actually make the verification complete. Don't
 mistake a clean checker run for a fully verified draft.
+
