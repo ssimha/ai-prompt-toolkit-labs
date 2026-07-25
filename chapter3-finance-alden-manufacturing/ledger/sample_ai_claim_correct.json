@@ -1,0 +1,32 @@
+{
+  "metric": "COGS",
+  "current_quarter_usd": 3865670.0,
+  "prior_quarter_usd": 3611750.0,
+  "variance_pct": 7.03,
+  "subsidiary_breakdown": {
+    "Ohio": {
+      "q1_usd": 1050000.0,
+      "q2_usd": 1120500.0
+    },
+    "Texas": {
+      "q1_usd": 830000.0,
+      "q2_usd": 905250.0
+    },
+    "Ontario": {
+      "q1_usd": 448350.0,
+      "q2_usd": 474240.0
+    },
+    "Bavaria": {
+      "q1_usd": 580500.0,
+      "q2_usd": 605920.0
+    },
+    "Shenzhen": {
+      "q1_usd": 444800.0,
+      "q2_usd": 486450.0
+    },
+    "Sao_Paulo": {
+      "q1_usd": 258100.0,
+      "q2_usd": 273310.0
+    }
+  }
+}

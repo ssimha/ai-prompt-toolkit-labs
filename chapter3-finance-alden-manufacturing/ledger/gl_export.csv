@@ -1,0 +1,7 @@
+subsidiary,currency,q1_cogs_local,q2_cogs_local,fx_rate_to_usd_q1,fx_rate_to_usd_q2
+Ohio,USD,1050000.00,1120500.00,1.00,1.00
+Texas,USD,830000.00,905250.00,1.00,1.00
+Ontario,CAD,610000.00,640000.00,0.735,0.741
+Bavaria,EUR,540000.00,560000.00,1.075,1.082
+Shenzhen,CNY,3200000.00,3450000.00,0.139,0.141
+Sao_Paulo,BRL,1450000.00,1510000.00,0.178,0.181

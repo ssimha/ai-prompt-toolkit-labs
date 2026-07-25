@@ -1,0 +1,254 @@
+[
+  {
+    "store_id": "02",
+    "date": "2026-06-29",
+    "item_code": "PRD-118",
+    "amount_usd": 42.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-06-29",
+    "item_code": "DAI-204",
+    "amount_usd": 88.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-06-29",
+    "item_code": "BAK-311",
+    "amount_usd": 19.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-06-30",
+    "item_code": "PRD-118",
+    "amount_usd": 51.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-06-30",
+    "item_code": "MEA-402",
+    "amount_usd": 133.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-07-01",
+    "item_code": "PAN-509",
+    "amount_usd": 27.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-07-01",
+    "item_code": "DAI-204",
+    "amount_usd": 94.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-07-02",
+    "item_code": "PROMO-REGIONAL-JUL",
+    "amount_usd": 210.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-07-02",
+    "item_code": "BAK-311",
+    "amount_usd": 22.0
+  },
+  {
+    "store_id": "02",
+    "date": "2026-07-03",
+    "item_code": "PRD-118",
+    "amount_usd": 45.0
+  },
+  {
+    "store_id": "03",
+    "date": "2026-06-29",
+    "item_code": "PRD-118",
+    "amount_usd": 38.5
+  },
+  {
+    "store_id": "03",
+    "date": "2026-06-29",
+    "item_code": "DAI-204",
+    "amount_usd": 102.75
+  },
+  {
+    "store_id": "03",
+    "date": "2026-06-30",
+    "item_code": "MEA-402",
+    "amount_usd": 144.0
+  },
+  {
+    "store_id": "03",
+    "date": "2026-06-30",
+    "item_code": "PAN-509",
+    "amount_usd": 31.25
+  },
+  {
+    "store_id": "03",
+    "date": "2026-07-01",
+    "item_code": "PROMO-REGIONAL-JUL",
+    "amount_usd": 410.0
+  },
+  {
+    "store_id": "03",
+    "date": "2026-07-01",
+    "item_code": "BAK-311",
+    "amount_usd": 17.5
+  },
+  {
+    "store_id": "03",
+    "date": "2026-07-02",
+    "item_code": "PRD-118",
+    "amount_usd": 49.0
+  },
+  {
+    "store_id": "03",
+    "date": "2026-07-02",
+    "item_code": "DAI-204",
+    "amount_usd": 88.25
+  },
+  {
+    "store_id": "03",
+    "date": "2026-07-03",
+    "item_code": "MEA-402",
+    "amount_usd": 151.75
+  },
+  {
+    "store_id": "05",
+    "date": "2026-06-29",
+    "item_code": "PRD-118",
+    "amount_usd": 29.0
+  },
+  {
+    "store_id": "05",
+    "date": "2026-06-29",
+    "item_code": "BAK-311",
+    "amount_usd": 15.0
+  },
+  {
+    "store_id": "05",
+    "date": "2026-06-30",
+    "item_code": "DAI-204",
+    "amount_usd": 76.0
+  },
+  {
+    "store_id": "05",
+    "date": "2026-07-01",
+    "item_code": "PAN-509",
+    "amount_usd": 22.0
+  },
+  {
+    "store_id": "05",
+    "date": "2026-07-01",
+    "item_code": "MEA-402",
+    "amount_usd": 119.0
+  },
+  {
+    "store_id": "05",
+    "date": "2026-07-02",
+    "item_code": "PRD-118",
+    "amount_usd": 33.0
+  },
+  {
+    "store_id": "05",
+    "date": "2026-07-03",
+    "item_code": "DAI-204",
+    "amount_usd": 81.0
+  },
+  {
+    "store_id": "05",
+    "date": "2026-07-03",
+    "item_code": "BAK-311",
+    "amount_usd": 18.0
+  },
+  {
+    "store_id": "07",
+    "date": "2026-06-29",
+    "item_code": "DAI-204",
+    "amount_usd": 91.0
+  },
+  {
+    "store_id": "07",
+    "date": "2026-06-30",
+    "item_code": "PRD-118",
+    "amount_usd": 47.5
+  },
+  {
+    "store_id": "07",
+    "date": "2026-06-30",
+    "item_code": "PROMO-REGIONAL-JUL",
+    "amount_usd": 395.0
+  },
+  {
+    "store_id": "07",
+    "date": "2026-07-01",
+    "item_code": "MEA-402",
+    "amount_usd": 128.25
+  },
+  {
+    "store_id": "07",
+    "date": "2026-07-02",
+    "item_code": "PAN-509",
+    "amount_usd": 26.0
+  },
+  {
+    "store_id": "07",
+    "date": "2026-07-02",
+    "item_code": "BAK-311",
+    "amount_usd": 20.75
+  },
+  {
+    "store_id": "07",
+    "date": "2026-07-03",
+    "item_code": "PRD-118",
+    "amount_usd": 52.0
+  },
+  {
+    "store_id": "07",
+    "date": "2026-07-03",
+    "item_code": "DAI-204",
+    "amount_usd": 97.5
+  },
+  {
+    "store_id": "09",
+    "date": "2026-06-29",
+    "item_code": "PRD-118",
+    "amount_usd": 36.0
+  },
+  {
+    "store_id": "09",
+    "date": "2026-06-30",
+    "item_code": "DAI-204",
+    "amount_usd": 84.0
+  },
+  {
+    "store_id": "09",
+    "date": "2026-06-30",
+    "item_code": "BAK-311",
+    "amount_usd": 21.0
+  },
+  {
+    "store_id": "09",
+    "date": "2026-07-01",
+    "item_code": "MEA-402",
+    "amount_usd": 137.0
+  },
+  {
+    "store_id": "09",
+    "date": "2026-07-02",
+    "item_code": "PAN-509",
+    "amount_usd": 24.0
+  },
+  {
+    "store_id": "09",
+    "date": "2026-07-02",
+    "item_code": "PRD-118",
+    "amount_usd": 41.0
+  },
+  {
+    "store_id": "09",
+    "date": "2026-07-03",
+    "item_code": "DAI-204",
+    "amount_usd": 90.0
+  }
+]

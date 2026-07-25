@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+db/fenwick.db
+.mypy_cache/
+.pytest_cache/

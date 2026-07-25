@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+db/mock_data.db
+logs/*.jsonl

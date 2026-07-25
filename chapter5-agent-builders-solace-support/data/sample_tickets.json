@@ -1,0 +1,27 @@
+[
+  {
+    "id": "TICKET-001",
+    "customer_id": "CUST-88213",
+    "text": "I was charged twice for March, please refund the duplicate charge on my card."
+  },
+  {
+    "id": "TICKET-002",
+    "customer_id": "CUST-40522",
+    "text": "My password reset link expired before I could use it, can you send a new one?"
+  },
+  {
+    "id": "TICKET-003",
+    "customer_id": "CUST-77190",
+    "text": "Our Salesforce integration has been failing all afternoon and it's blocking our sales team. This is urgent."
+  },
+  {
+    "id": "TICKET-004",
+    "customer_id": "CUST-77190",
+    "text": "Your March invoice for $899 is incorrect and if this isn't resolved we will be pursuing legal action for breach of contract."
+  },
+  {
+    "id": "TICKET-005",
+    "customer_id": "CUST-40522",
+    "text": "It would be great if the dashboard supported dark mode. Any plans for this?"
+  }
+]

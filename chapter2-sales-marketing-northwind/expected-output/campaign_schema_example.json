@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "Welcome to Northwind — let's get you set up",
+    "body": "Full email body text goes here...",
+    "send_delay_days": 0,
+    "segment_tag": "enterprise"
+  },
+  {
+    "subject": "Worth inviting a teammate before your trial ends?",
+    "body": "Full email body text goes here...",
+    "send_delay_days": 3,
+    "segment_tag": "enterprise"
+  }
+]
