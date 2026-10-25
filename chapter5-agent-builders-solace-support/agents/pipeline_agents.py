@@ -9,13 +9,17 @@ These are recommendations to test, per section 1.12/5.11, not fixed rules.
 """
 
 import json
+import os
 from .claude_client import call, text_of, tool_calls_of
 from .tools import TOOL_SCHEMAS, TOOL_FUNCTIONS
 
-MODEL_FAST = "claude-haiku-4-5-20251001"   # Classifier: high volume, low individual stakes
-MODEL_MID = "claude-sonnet-5"               # Researcher: moderate stakes, schema-following
-MODEL_STRONG = "claude-sonnet-5"            # Drafter: customer-visible output
-MODEL_STRONGEST = "claude-opus-4-8"         # Reviewer + Planner: highest-stakes checks
+# Defaults can be overridden in your .env file (see .env.example), so if a
+# model name is retired or you want to test a different tier, you never
+# need to edit code.
+MODEL_FAST = os.getenv("MODEL_FAST", "claude-haiku-5-5")        # Classifier: high volume, low individual stakes
+MODEL_MID = os.getenv("MODEL_MID", "claude-sonnet-5-5")         # Researcher: moderate stakes, schema-following
+MODEL_STRONG = os.getenv("MODEL_STRONG", "claude-sonnet-5-5")   # Drafter: customer-visible output
+MODEL_STRONGEST = os.getenv("MODEL_STRONGEST", "claude-opus-5-5")  # Reviewer + Planner: highest-stakes checks
 
 
 def classify(ticket_text: str) -> dict:

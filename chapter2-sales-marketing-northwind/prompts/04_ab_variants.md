@@ -13,4 +13,3 @@ Keep each under 50 characters. Return as a labeled list, not prose.
 Compare this against just asking for "3 subject line options" with no
 named dimensions — notice how much more differentiated the results are
 when each variant is testing something specific.
-

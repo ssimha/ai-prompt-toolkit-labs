@@ -27,4 +27,3 @@ python ledger/reconcile.py your_claim.json
 They should agree. If the LLM-based check says "looks fine" but the
 script finds a mismatch (or vice versa), that disagreement is itself
 worth investigating — it means one of your two checks has a blind spot.
-

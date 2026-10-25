@@ -26,4 +26,3 @@ draft here}
 
 Notice how much easier it is to redirect a bad structural choice at
 Step 1 than after a full polished draft already exists at Step 2.
-

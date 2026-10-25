@@ -62,4 +62,3 @@ doesn't match its regex patterns. It's the fast, free, mechanical first
 pass; the LLM-based check in `prompts/06` and the human checkpoint in
 section 2.11 are what actually make the verification complete. Don't
 mistake a clean checker run for a fully verified draft.
-

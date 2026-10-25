@@ -18,4 +18,3 @@ in four different currencies).
 4. Open `ledger/gl_export.csv` and manually trace through which
    subsidiary and which FX rate column was misapplied. Confirm your
    understanding matches what the script reported.
-

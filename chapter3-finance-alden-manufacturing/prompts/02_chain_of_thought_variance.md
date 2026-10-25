@@ -28,4 +28,3 @@ Sao_Paulo: Q1 $258,100.00 -> Q2 $273,310.00
 Compare the model's identified top drivers against the actual computed
 ranking: Texas ($75,250) > Ohio ($70,500) > Shenzhen ($41,650) >
 Ontario ($25,890) > Bavaria ($25,420) > Sao_Paulo ($15,210).
-

@@ -22,4 +22,3 @@ Build this from scratch using the full sequence from this chapter:
    high-value tickets, or is warehouse-reported exception data
    low-stakes enough to skip a mandatory human review before it's
    saved? Justify it using section 4.11's framing, not just intuition.
-

@@ -21,4 +21,3 @@ python claims/claims_checker.py claims/sample_overclaiming_draft.txt
    integrations only
 5. "100% uptime, no exceptions" — the ledger's actual approved figure
    is 99.9% over trailing 12 months, and directly contradicts this claim
-

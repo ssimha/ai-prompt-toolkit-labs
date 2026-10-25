@@ -18,4 +18,3 @@ Implementation notes:
   customer going through the normal automated path). Where does that
   put it in the tiering from section 5.11 — closer to the Classifier
   or closer to the Reviewer?
-

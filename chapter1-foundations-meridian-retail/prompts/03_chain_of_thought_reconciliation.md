@@ -27,4 +27,3 @@ read of the raw files. There is no single hidden right answer here —
 the exercise is judging whether the model's step-by-step reasoning is
 sound and whether it flags its own uncertainty rather than guessing
 with false confidence.
-

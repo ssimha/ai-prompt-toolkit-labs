@@ -19,4 +19,3 @@ in section 3.3.
    script.
 3. Fix the claim file yourself (correct Ohio's Q2 figure) and confirm
    the script then reports a clean reconciliation.
-

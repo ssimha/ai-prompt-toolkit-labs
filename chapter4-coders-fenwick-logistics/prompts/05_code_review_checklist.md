@@ -20,4 +20,3 @@ should flag that `estimate_delivery_buggy` is being used instead of
 verbatim, it's the kind of thing point 4 (response correctness) should
 catch. If your model doesn't flag it, that's worth noticing: it's the
 exact self-verification blind spot section 4.8 warns about.
-

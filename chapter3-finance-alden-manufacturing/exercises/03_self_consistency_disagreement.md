@@ -20,4 +20,3 @@ contributions to the change — close enough that which ones count as
    the model might be anchoring on the order data was presented in,
    rather than re-deriving the ranking each time — worth testing by
    shuffling the subsidiary order between runs.
-

@@ -97,4 +97,3 @@ tests/
 prompts/           The five prompts from the chapter, paste-ready
 exercises/         Three exercises, referenced above
 ```
-

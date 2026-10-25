@@ -16,4 +16,3 @@ nurture sequence for the startup segment profile in
 
 You should end this exercise with a validated JSON file and a written
 note on which claims-ledger issues, if any, you had to fix along the way.
-

@@ -28,7 +28,7 @@ def get_client() -> anthropic.Anthropic:
     return _client
 
 
-def call(system: str, user: str, model: str = "claude-sonnet-5",
+def call(system: str, user: str, model: str = os.getenv("MODEL_STRONG", "claude-sonnet-5-5"),
          max_tokens: int = 1000, temperature: float = 0.0,
          tools: list | None = None) -> anthropic.types.Message:
     """

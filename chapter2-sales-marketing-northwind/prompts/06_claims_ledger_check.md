@@ -37,4 +37,3 @@ python claims/claims_checker.py claims/sample_overclaiming_draft.txt
 Compare what the rule-based checker catches against what the LLM
 verification pass catches — they won't be identical, which is exactly
 why section 2.10 recommends both, not just one.
-

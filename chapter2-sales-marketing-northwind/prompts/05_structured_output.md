@@ -21,4 +21,3 @@ If your model wraps the output in a code fence or adds a sentence
 before/after it despite the instruction, that's the exact failure mode
 section 2.7 describes — retry with: "Your last response wasn't valid
 JSON. Return only the JSON array, nothing else."
-

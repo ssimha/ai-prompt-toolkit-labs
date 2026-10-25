@@ -28,4 +28,3 @@ Any AI-generated analysis that ranks these differently, or lands on a
 different consolidated total, should be treated as a discrepancy to
 investigate — not rounded away. Run `ledger/reconcile.py` against any
 generated claim to check automatically.
-

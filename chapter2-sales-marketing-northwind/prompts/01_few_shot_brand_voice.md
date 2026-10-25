@@ -20,4 +20,3 @@ Compare the result against the two examples in `brand-voice/examples.md`
 — short sentences, no hype language, directness. If your output reads
 like generic SaaS marketing copy, the voice-matching didn't take;
 try again with the examples pasted in full, not summarized.
-

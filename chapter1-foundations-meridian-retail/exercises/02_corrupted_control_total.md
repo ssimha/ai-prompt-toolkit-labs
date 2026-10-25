@@ -22,4 +22,3 @@ it. What additional check would catch a duplicate transaction
 specifically? (Hint: think about what a self-verification prompt could
 be asked to look for — duplicate rows with identical date, item, and
 amount — that a control total alone can't.)
-

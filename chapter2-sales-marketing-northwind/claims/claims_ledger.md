@@ -20,4 +20,3 @@ a claim changes — that's the whole point of a single source of truth.
 - "Guaranteed" ROI, results, or outcomes of any kind
 - Competitor comparisons naming a specific competitor by name
 - "Best in class", "#1", or other superlative rankings — unverifiable and legally risky
-

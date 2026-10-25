@@ -31,4 +31,3 @@ the UTC calendar date instead of the carrier's local calendar date —
 and for a pickup late in the evening Pacific time, that's already the
 next day in UTC. Compare the model's hypothesis and proposed fix
 against `estimate_delivery_fixed` in the same file.
-

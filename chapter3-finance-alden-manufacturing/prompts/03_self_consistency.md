@@ -29,4 +29,3 @@ that, something about the prompt or model is producing unstable
 reasoning worth investigating before you trust it further. See
 exercises/03_self_consistency_disagreement.md for a case engineered to
 actually produce disagreement.
-

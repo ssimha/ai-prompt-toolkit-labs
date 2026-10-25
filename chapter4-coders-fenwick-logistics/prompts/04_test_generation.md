@@ -17,4 +17,3 @@ file was written the same way — from the spec, not from reading
 `shipments.py` first — which is why it's able to catch the timezone
 bug in `test_timezone_bug_case_ship_1004` rather than just confirming
 whatever the code already does.
-

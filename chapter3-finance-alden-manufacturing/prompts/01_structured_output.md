@@ -17,4 +17,3 @@ Feed the result straight into the reconciliation script:
 ```
 python ledger/reconcile.py your_output.json
 ```
-

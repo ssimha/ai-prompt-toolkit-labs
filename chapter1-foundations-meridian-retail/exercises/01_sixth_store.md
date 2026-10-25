@@ -12,4 +12,3 @@ Then fix it: either add a new few-shot example covering this date
 format, or adjust your prompt's instructions to handle delimiter
 detection. Confirm your fix still works correctly against the original
 five stores too — don't fix Store 11 by breaking the others.
-

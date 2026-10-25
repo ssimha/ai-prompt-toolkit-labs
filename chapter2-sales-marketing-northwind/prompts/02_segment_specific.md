@@ -18,4 +18,3 @@ if it breaks the flow of the message.
 Try this for all three segments and compare the results side by side.
 They should differ meaningfully in what they emphasize, not just in
 which segment name is mentioned.
-
