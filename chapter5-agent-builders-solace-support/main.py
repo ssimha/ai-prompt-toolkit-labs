@@ -60,6 +60,14 @@ def run_ticket(ticket: dict) -> dict:
     log_step(ticket_id, "classify", classification)
 
     next_step = plan_next_step(classification)
+    # Defensive fallback: the Planner can occasionally return something
+    # outside the three valid steps (e.g. an empty string if its response
+    # got cut off mid-thinking before any visible answer text). Treat
+    # that as "research" rather than silently skipping data retrieval —
+    # fail toward gathering more data, not less.
+    if next_step not in ("research", "skip_to_draft", "human_escalation"):
+        log_step(ticket_id, "plan_fallback", {"raw_next_step": next_step, "fallback_to": "research"})
+        next_step = "research"
     state["planned_step"] = next_step
     log_step(ticket_id, "plan", {"next_step": next_step})
 
@@ -70,7 +78,7 @@ def run_ticket(ticket: dict) -> dict:
 
     retrieved_data = {}
     if next_step == "research":
-        retrieved_data = research(text, classification)
+        retrieved_data = research(text, classification, customer_id)
         state["retrieved_data"] = retrieved_data
         log_step(ticket_id, "research", retrieved_data)
 

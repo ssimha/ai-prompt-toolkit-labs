@@ -12,6 +12,14 @@ from datetime import datetime, timedelta
 
 DB_PATH = Path(__file__).parent.parent / "db" / "mock_data.db"
 
+# The mock data in db/seed.py is dated within a fixed fictional window
+# (Jan-Mar 2026). A lookback computed against the real wall-clock date
+# would silently return nothing once enough real time has passed since
+# the lab was built — this constant anchors "today" to the lab's own
+# timeline instead, so the pipeline's behavior doesn't depend on
+# whenever you happen to run it.
+LAB_REFERENCE_DATE = datetime(2026, 4, 1)
+
 
 def _connect():
     if not DB_PATH.exists():
@@ -23,7 +31,7 @@ def _connect():
 
 def get_invoice_history(customer_id: str, months: int = 3) -> list[dict]:
     """Return invoices for a customer from the last `months` months."""
-    cutoff = (datetime.now() - timedelta(days=30 * months)).strftime("%Y-%m-%d")
+    cutoff = (LAB_REFERENCE_DATE - timedelta(days=30 * months)).strftime("%Y-%m-%d")
     conn = _connect()
     cur = conn.cursor()
     cur.execute(

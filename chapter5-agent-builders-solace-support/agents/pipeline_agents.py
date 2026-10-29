@@ -45,16 +45,23 @@ def plan_next_step(classification: dict) -> str:
         "- everything else -> research\n"
         "Return ONLY the step name, nothing else."
     )
-    resp = call(system=system, user=json.dumps(classification), model=MODEL_STRONGEST, max_tokens=20)
+    # max_tokens is generous relative to the one-word answer because this
+    # model tier uses extended thinking by default, and thinking tokens
+    # count against max_tokens — too tight a budget risks the response
+    # being cut off before any visible answer text is emitted at all.
+    resp = call(system=system, user=json.dumps(classification), model=MODEL_STRONGEST, max_tokens=300)
     return text_of(resp).strip()
 
 
-def research(ticket_text: str, classification: dict) -> dict:
+def research(ticket_text: str, classification: dict, customer_id: str) -> dict:
     system = (
         "You are the Researcher agent. Decide which tool(s) to call to gather "
         "the data needed to answer this ticket. Call only what you need."
     )
-    user = f"Ticket: {ticket_text}\nClassification: {json.dumps(classification)}"
+    user = (
+        f"Customer ID: {customer_id}\n"
+        f"Ticket: {ticket_text}\nClassification: {json.dumps(classification)}"
+    )
     resp = call(system=system, user=user, model=MODEL_MID, max_tokens=500, tools=TOOL_SCHEMAS)
 
     results = {}
@@ -78,7 +85,7 @@ def draft(ticket_text: str, classification: dict, retrieved_data: dict) -> str:
         f"Classification: {json.dumps(classification)}\n"
         f"Retrieved data: {json.dumps(retrieved_data)}"
     )
-    resp = call(system=system, user=user, model=MODEL_STRONG, max_tokens=400)
+    resp = call(system=system, user=user, model=MODEL_STRONG, max_tokens=1000)
     return text_of(resp)
 
 
@@ -98,6 +105,6 @@ def review(ticket_text: str, retrieved_data: dict, draft_reply: str) -> dict:
         f"Retrieved data: {json.dumps(retrieved_data)}\n"
         f"Draft reply: {draft_reply}"
     )
-    resp = call(system=system, user=user, model=MODEL_STRONGEST, max_tokens=400)
+    resp = call(system=system, user=user, model=MODEL_STRONGEST, max_tokens=1500)
     raw = text_of(resp).strip().strip("`").lstrip("json").strip()
     return json.loads(raw)

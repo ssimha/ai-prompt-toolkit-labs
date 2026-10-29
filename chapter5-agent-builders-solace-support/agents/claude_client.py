@@ -29,7 +29,7 @@ def get_client() -> anthropic.Anthropic:
 
 
 def call(system: str, user: str, model: str = os.getenv("MODEL_STRONG", "claude-sonnet-5-5"),
-         max_tokens: int = 1000, temperature: float = 0.0,
+         max_tokens: int = 1000,
          tools: list | None = None) -> anthropic.types.Message:
     """
     Single-turn call to Claude. Kept deliberately simple — no retry
@@ -37,12 +37,16 @@ def call(system: str, user: str, model: str = os.getenv("MODEL_STRONG", "claude-
     design, not a production HTTP client. Add retries yourself if you
     extend this for real use, per section 1.5's retry-on-malformed-
     output pattern.
+
+    Note: no `temperature` parameter — the installed `anthropic` SDK
+    version no longer accepts it on messages.create(). Omitted rather
+    than passed-but-ignored, so callers aren't misled into thinking it
+    does anything.
     """
     client = get_client()
     kwargs = dict(
         model=model,
         max_tokens=max_tokens,
-        temperature=temperature,
         system=system,
         messages=[{"role": "user", "content": user}],
     )
