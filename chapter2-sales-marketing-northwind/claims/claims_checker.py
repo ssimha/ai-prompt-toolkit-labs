@@ -7,7 +7,7 @@ an LLM-based ledger-check pass. It will not catch everything a careful
 human or a good LLM claims-check prompt would catch — it's a first
 pass, not a replacement for section 2.10's full technique.
 
-Run: python claims/claims_checker.py claims/sample_overclaiming_draft.md
+Run: python claims/claims_checker.py claims/sample_overclaiming_draft.txt
 """
 
 import re
@@ -79,7 +79,7 @@ def print_report(findings: dict):
 
 
 if __name__ == "__main__":
-    path = sys.argv[1] if len(sys.argv) > 1 else "claims/sample_overclaiming_draft.md"
+    path = sys.argv[1] if len(sys.argv) > 1 else "claims/sample_overclaiming_draft.txt"
     text = Path(path).read_text()
     findings = check_draft(text)
     print_report(findings)
