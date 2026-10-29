@@ -10,7 +10,7 @@ from pathlib import Path
 DB_PATH = Path(__file__).parent.parent / "db" / "fenwick.db"
 
 
-def _connect():
+def _connect() -> sqlite3.Connection:
     if not DB_PATH.exists():
         raise FileNotFoundError(f"{DB_PATH} not found. Run `python db/seed.py` first.")
     return sqlite3.connect(DB_PATH)

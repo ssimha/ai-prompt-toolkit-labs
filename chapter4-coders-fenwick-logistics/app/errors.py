@@ -6,7 +6,7 @@ what few-shot examples pulled from this file are meant to teach a model
 to replicate on a new endpoint.
 """
 
-from fastapi import Request
+from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
 
@@ -17,9 +17,9 @@ class APIError(Exception):
         self.detail = detail
 
 
-def register_exception_handlers(app):
+def register_exception_handlers(app: FastAPI) -> None:
     @app.exception_handler(APIError)
-    async def api_error_handler(request: Request, exc: APIError):
+    async def api_error_handler(request: Request, exc: APIError) -> JSONResponse:
         return JSONResponse(
             status_code=exc.status_code,
             content={"error_code": exc.code, "detail": exc.detail},
