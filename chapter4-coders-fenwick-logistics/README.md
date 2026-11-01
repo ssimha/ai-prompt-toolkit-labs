@@ -16,11 +16,10 @@ just a described one) for Exercise 1.
   ```
 - **Real, but needs your own install**: the full FastAPI app, its
   endpoint, and `tests/test_shipments.py` — these need `fastapi`,
-  `pydantic`, `pytest`, and `httpx` installed. They're written
-  correctly against current FastAPI/Pydantic v2 conventions, but
-  weren't executed in the environment this repo was built in (no
-  internet access there) — you'll be the first to actually run them
-  end to end.
+  `pydantic`, `pytest`, and `httpx` installed. They are written
+  against current FastAPI/Pydantic v2 conventions and have been run
+  end to end by an independent tester, who also fixed the type
+  annotations so `mypy app/` passes cleanly.
 
 ## Setup
 
